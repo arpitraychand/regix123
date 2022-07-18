@@ -15,7 +15,7 @@ from turtle import st
 # print(lst[0])
 # print([-1])
 # print([-2][0])
-# lst = [1,2,3,4,5,'hello',['a','b']]
+# lst = [1,2,3,4,5,'hello',['a','b']] 
 # random_number_list = [10,33,40,22,76,90,23,87]
 # random_number_list.sort()
 # print(random_number_list)
