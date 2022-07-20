@@ -13,13 +13,15 @@
     
 
 
-a = input('enter value')
-a = int(a)
-s = ''
-for i in range(a):
-    b = int(input())
-    char = chr(b)
-    s += char
+# a = input('enter value')
+# a = int(a)
+# s = ''
+# for i in range(a):
+#     b = int(input())
+#     char = chr(b)
+#     s += char
 
-    print(s)
+#     print(s)
+
+ 
    
