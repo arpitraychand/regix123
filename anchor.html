@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id ="wrapper">
+        <div class="anchors">
+        <a href="">JavaScript</a>
+        <a href="">Node</a>
+        <a href="">Mongo</a>
+        <a href="">Python</a>
+        <a href="">Next</a>
+        </div>
+    </div>
+    <script>
+        let allAnchors=document.querySelectorAll("a")
+        allAnchors.forEach(function(anchor){
+            anchor.onclick=function(e){
+                e.preventDefault()
+                console.log(anchor.innerText)
+
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- <input type="text" placeholder="enter your name">
+        <button>Show in para</button>
+          -->
+        <form action="">
+            <input type="text" placeholder="Name"
+            <br>
+            <input type="text" placeholder="Age"><br>
+        </form>
+    </div> 
+
+    <script>
+        document.querySelector("button").onclick=function(){
+            let name=document.querySelector("input").value
+
+            let newpara=document.createElement("p")
+            newpara.innerHTML = name
+            document.querySelector('#wrapper').appendChilds(newpara)
+        }
+    </script>
+
+</body>
+</html>
+//insertElement,insertElement
