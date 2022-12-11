@@ -12,9 +12,13 @@
         <button>Show in para</button>
           -->
         <form action="">
-            <input type="text" placeholder="Name"
+            <input type="text" placeholder="Name"> 
             <br>
             <input type="text" placeholder="Age"><br>
+            <input type="text" placeholder="Email"><br>
+            <div>
+                <input type="text" placeholder="qualification">
+            </div>
         </form>
     </div> 
 
@@ -24,10 +28,11 @@
 
             let newpara=document.createElement("p")
             newpara.innerHTML = name
-            document.querySelector('#wrapper').appendChilds(newpara)
+            document.querySelector('#wrapper').appendChild(newpara)
         }
+        //insertAdjacentHTML,insertAdjacentElement, setAttribute
     </script>
 
 </body>
 </html>
-//insertElement,insertElement
+ 
